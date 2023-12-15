@@ -3,6 +3,7 @@ using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using System;
 using System.IO;
 using System.Reflection;
+using Tailspin.SpaceGame.LeaderboardFunction.Models;
 
 [assembly: FunctionsStartup(typeof(TailSpin.SpaceGame.LeaderboardFunction.Startup))]
 namespace TailSpin.SpaceGame.LeaderboardFunction

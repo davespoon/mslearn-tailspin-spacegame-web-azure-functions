@@ -6,6 +6,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tailspin.SpaceGame.Web", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.SpaceGame.LeaderboardFunction", "Tailspin.SpaceGame.LeaderboardFunction\Tailspin.SpaceGame.LeaderboardFunction.csproj", "{3D748CF8-88FB-478F-ADBA-5FF012B5A807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Tests", "Web.Tests\Web.Tests.csproj", "{52AFE082-D57A-48D6-B104-C332B3453A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{3D748CF8-88FB-478F-ADBA-5FF012B5A807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D748CF8-88FB-478F-ADBA-5FF012B5A807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D748CF8-88FB-478F-ADBA-5FF012B5A807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AFE082-D57A-48D6-B104-C332B3453A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AFE082-D57A-48D6-B104-C332B3453A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AFE082-D57A-48D6-B104-C332B3453A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AFE082-D57A-48D6-B104-C332B3453A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

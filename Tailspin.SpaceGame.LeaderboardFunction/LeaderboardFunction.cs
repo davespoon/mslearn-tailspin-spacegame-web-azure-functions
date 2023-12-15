@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using TailSpin.SpaceGame.LeaderboardFunction;
 using System.Collections.Generic;
 using System.Linq;
+using Tailspin.SpaceGame.LeaderboardFunction.Models;
 
 namespace Tailspin.SpaceGame.LeaderboardFunction
 {

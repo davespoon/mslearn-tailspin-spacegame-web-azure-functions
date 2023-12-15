@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json;
+using Tailspin.SpaceGame.LeaderboardFunction.Models;
 
 namespace TailSpin.SpaceGame.LeaderboardFunction
 {
@@ -17,6 +18,12 @@ namespace TailSpin.SpaceGame.LeaderboardFunction
             // Serialize the items from the provided JSON document.
             _items = JsonSerializer.Deserialize<List<T>>(File.ReadAllText(fileName));
         }
+        public LocalDocumentDBRepository(Stream stream)
+        {
+            // Serialize the items from the provided JSON document.
+            _items = JsonSerializer.Deserialize<List<T>>(new StreamReader(stream).ReadToEnd());
+        }
+        
 
         /// <summary>
         /// Retrieves the item from the store with the given identifier.

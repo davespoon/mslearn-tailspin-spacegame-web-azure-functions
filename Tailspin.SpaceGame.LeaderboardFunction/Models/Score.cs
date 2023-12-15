@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace TailSpin.SpaceGame.LeaderboardFunction
+namespace Tailspin.SpaceGame.LeaderboardFunction.Models
 {
     public class Score : Model
     {

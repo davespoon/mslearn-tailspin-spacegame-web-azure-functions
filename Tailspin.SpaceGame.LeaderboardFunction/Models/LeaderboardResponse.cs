@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TailSpin.SpaceGame.LeaderboardFunction
+namespace Tailspin.SpaceGame.LeaderboardFunction.Models
 {
     public class LeaderboardResponse
     {
