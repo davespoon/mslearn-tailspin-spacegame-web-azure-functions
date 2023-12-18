@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
+using Tailspin.SpaceGame.Models;
 
-namespace TailSpin.SpaceGame.Web.Models
+namespace Tailspin.SpaceGame.Web.Models
 {
     public class LeaderboardViewModel
     {

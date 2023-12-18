@@ -24,4 +24,7 @@
             <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         </EmbeddedResource>
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Tailspin.SpaceGame.Models\Tailspin.SpaceGame.Models.csproj" />
+    </ItemGroup>
 </Project>

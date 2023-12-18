@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json;
-using Tailspin.SpaceGame.LeaderboardFunction.Models;
+using Tailspin.SpaceGame.Models;
 
 namespace TailSpin.SpaceGame.LeaderboardFunction
 {

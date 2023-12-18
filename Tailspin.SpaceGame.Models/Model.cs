@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Tailspin.SpaceGame.LeaderboardFunction.Models
+namespace Tailspin.SpaceGame.Models
 {
     /// <summary>
     /// Base class for data models.

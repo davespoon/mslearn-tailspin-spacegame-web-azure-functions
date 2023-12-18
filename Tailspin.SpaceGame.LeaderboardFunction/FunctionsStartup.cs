@@ -1,11 +1,12 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Azure.Functions.Extensions.DependencyInjection;
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
-using Tailspin.SpaceGame.LeaderboardFunction.Models;
+using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using TailSpin.SpaceGame.LeaderboardFunction;
+using Tailspin.SpaceGame.Models;
 
-[assembly: FunctionsStartup(typeof(TailSpin.SpaceGame.LeaderboardFunction.Startup))]
+[assembly: FunctionsStartup(typeof(Startup))]
 namespace TailSpin.SpaceGame.LeaderboardFunction
 {
     public class Startup : FunctionsStartup

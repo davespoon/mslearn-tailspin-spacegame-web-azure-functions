@@ -13,4 +13,7 @@
     <_ContentIncludedByDefault Remove="SampleData\profiles.json" />
     <_ContentIncludedByDefault Remove="SampleData\scores.json" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tailspin.SpaceGame.Models\Tailspin.SpaceGame.Models.csproj" />
+  </ItemGroup>
 </Project>

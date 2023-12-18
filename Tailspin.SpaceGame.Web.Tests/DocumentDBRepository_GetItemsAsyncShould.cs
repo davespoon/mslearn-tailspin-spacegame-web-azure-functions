@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using TailSpin.SpaceGame.LeaderboardFunction;
-using Tailspin.SpaceGame.LeaderboardFunction.Models;
+using Tailspin.SpaceGame.Models;
 
 namespace Tailspin.SpaceGame.Web.Tests;
 
