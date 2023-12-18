@@ -7,7 +7,7 @@ using NUnit.Framework;
 using Tailspin.SpaceGame.LeaderboardFunction.Models;
 using TailSpin.SpaceGame.LeaderboardFunction;
 
-namespace Web.Tests;
+namespace Tailspin.SpaceGame.Web.Tests;
 
 public class DocumentDBRepository_GetItemsAsyncShould
 {
