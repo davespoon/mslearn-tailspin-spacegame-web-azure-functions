@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Tailspin.SpaceGame.LeaderboardFunction.Models;
+using Tailspin.SpaceGame.Models;
 
 namespace TailSpin.SpaceGame.LeaderboardFunction
 {

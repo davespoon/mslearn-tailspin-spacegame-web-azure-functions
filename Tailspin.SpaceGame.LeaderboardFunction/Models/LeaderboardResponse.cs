@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Tailspin.SpaceGame.Models;
 
 namespace Tailspin.SpaceGame.LeaderboardFunction.Models
 {

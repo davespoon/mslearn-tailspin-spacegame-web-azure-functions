@@ -1,3 +1,5 @@
+﻿using Tailspin.SpaceGame.Models;
+
 namespace TailSpin.SpaceGame.Web.Models
 {
     public class ProfileViewModel
