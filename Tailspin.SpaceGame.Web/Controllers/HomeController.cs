@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Tailspin.SpaceGame.Models;
 using Tailspin.SpaceGame.Web.Models;
 using TailSpin.SpaceGame.Web.Models;
 

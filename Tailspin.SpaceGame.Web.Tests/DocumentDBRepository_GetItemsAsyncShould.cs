@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using TailSpin.SpaceGame.LeaderboardFunction;
 using Tailspin.SpaceGame.Models;
+using TailSpin.SpaceGame.LeaderboardFunction;
 
 namespace Tailspin.SpaceGame.Web.Tests;
 
@@ -50,10 +50,10 @@ public class DocumentDBRepository_GetItemsAsyncShould
         // Verify that each score's game region matches the provided game region.
         Assert.That(scores, Is.All.Matches<Score>(s => s.GameRegion == gameRegion));
     }
-    
-    [TestCase(0, ExpectedResult=0)]
-    [TestCase(1, ExpectedResult=1)]
-    [TestCase(10, ExpectedResult=10)]
+
+    [TestCase(0, ExpectedResult = 0)]
+    [TestCase(1, ExpectedResult = 1)]
+    [TestCase(10, ExpectedResult = 10)]
     public int ReturnRequestedCount(int count)
     {
         const int PAGE = 0; // take the first page of results

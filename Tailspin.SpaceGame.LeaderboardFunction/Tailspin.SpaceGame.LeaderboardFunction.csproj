@@ -4,8 +4,9 @@
         <AzureFunctionsVersion>v4</AzureFunctionsVersion>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0"/>
-        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.0"/>
+        <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.0" />
+        <PackageReference Include="Tailspin.SpaceGame.Models" Version="1.0.0-CI-20231219-093103" />
     </ItemGroup>
     <ItemGroup>
         <None Update="host.json">
@@ -23,8 +24,5 @@
         <EmbeddedResource Include="SampleData\scores.json">
             <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         </EmbeddedResource>
-    </ItemGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\Tailspin.SpaceGame.Models\Tailspin.SpaceGame.Models.csproj" />
     </ItemGroup>
 </Project>
