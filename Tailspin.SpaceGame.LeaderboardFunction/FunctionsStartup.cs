@@ -4,9 +4,8 @@ using System;
 using System.IO;
 using System.Reflection;
 using Tailspin.SpaceGame.Models;
-using TailSpin.SpaceGame.LeaderboardFunction;
 
-[assembly: FunctionsStartup(typeof(Startup))]
+[assembly: FunctionsStartup(typeof(TailSpin.SpaceGame.LeaderboardFunction.Startup))]
 namespace TailSpin.SpaceGame.LeaderboardFunction
 {
     public class Startup : FunctionsStartup

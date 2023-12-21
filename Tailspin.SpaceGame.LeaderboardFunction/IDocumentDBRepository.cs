@@ -5,7 +5,7 @@ using Tailspin.SpaceGame.Models;
 
 namespace TailSpin.SpaceGame.LeaderboardFunction
 {
-    public interface IDocumentDBRepository<T> where T : Model
+    public interface IDocumentDBRepository<T>
     {
         /// <summary>
         /// Retrieves the item from the store with the given identifier.

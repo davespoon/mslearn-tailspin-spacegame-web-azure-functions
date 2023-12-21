@@ -1,4 +1,4 @@
-﻿using Tailspin.SpaceGame.Models;
+using Tailspin.SpaceGame.Models;
 
 namespace TailSpin.SpaceGame.Web.Models
 {
