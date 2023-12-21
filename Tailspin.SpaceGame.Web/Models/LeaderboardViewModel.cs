@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
+using Tailspin.SpaceGame.Models;
 
 namespace TailSpin.SpaceGame.Web.Models
 {
